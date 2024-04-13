@@ -24,6 +24,6 @@
     {"name":"armor_icon","order":1,"path":"sprites/armor_icon/armor_icon.yy",},
     {"name":"coin_icon","order":3,"path":"sprites/coin_icon/coin_icon.yy",},
     {"name":"heart_icon","order":2,"path":"sprites/heart_icon/heart_icon.yy",},
-    {"name":"Summon_Icon","order":4,"path":"sprites/Summon_Icon/Summon_Icon.yy",},
+    {"name":"Summon_icon","order":4,"path":"sprites/Summon_icon/Summon_icon.yy",},
   ],
 }

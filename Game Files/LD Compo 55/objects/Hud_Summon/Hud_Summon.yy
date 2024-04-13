@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Summon_Icon",
-    "path":"sprites/Summon_Icon/Summon_Icon.yy",
+    "name":"Summon_icon",
+    "path":"sprites/Summon_icon/Summon_icon.yy",
   },
   "spriteMaskId":null,
   "visible":true,

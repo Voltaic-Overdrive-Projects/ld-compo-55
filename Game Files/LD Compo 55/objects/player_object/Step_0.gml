@@ -18,3 +18,4 @@ if keyboard_check(ord("S")){
 // Keep player on the screen.
 x=clamp(x, 0, room_width-16);
 y=clamp(y, 0, room_height-16);
+
