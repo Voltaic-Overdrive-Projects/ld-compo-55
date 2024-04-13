@@ -32,7 +32,7 @@
   ],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"","%Name":"player_speed","filters":[],"listItems":[],"multiselect":false,"name":"player_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5","varType":1,},
+    {"$GMObjectProperty":"","%Name":"player_speed","filters":[],"listItems":[],"multiselect":false,"name":"player_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":1,},
     {"$GMObjectProperty":"","%Name":"player_sway","filters":[],"listItems":[],"multiselect":false,"name":"player_sway","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
     {"$GMObjectProperty":"","%Name":"player_score","filters":[],"listItems":[],"multiselect":false,"name":"player_score","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
     {"$GMObjectProperty":"","%Name":"player_health","filters":[],"listItems":[],"multiselect":false,"name":"player_health","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":1,},
