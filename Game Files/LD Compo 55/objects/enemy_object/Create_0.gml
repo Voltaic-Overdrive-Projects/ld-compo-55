@@ -1,0 +1,1 @@
+random_spawn = random_range(0, 100);

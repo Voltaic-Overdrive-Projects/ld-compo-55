@@ -56,6 +56,28 @@ if(arrow_reset <= 0){
 	}	
 }
 
+// Depending on what the player needs, they can summon it below.
+if keyboard_check_pressed(ord("1")){
+	if(player_sway >= 75){
+		instance_create_layer(random_range(0, 960), random_range(0, 540), "Instances", heart_item);
+		player_sway -= 75;
+	}
+}
+
+if keyboard_check_pressed(ord("2")){
+	if(player_sway >= 50){
+		instance_create_layer(random_range(0, 960), random_range(0, 540), "Instances", armor_item);
+		player_sway -= 50;
+	}
+}
+
+if keyboard_check_pressed(ord("3")){
+	if(player_sway >= 10){
+		instance_create_layer(random_range(0, 960), random_range(0, 540), "Instances", coin_item);
+		player_sway -= 10;
+	}
+}
+
 arrow_reset -= 1;
 
 // Keep player on the screen.
