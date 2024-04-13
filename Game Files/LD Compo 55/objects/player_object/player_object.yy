@@ -37,10 +37,11 @@
     {"$GMObjectProperty":"","%Name":"player_score","filters":[],"listItems":[],"multiselect":false,"name":"player_score","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
     {"$GMObjectProperty":"","%Name":"player_health","filters":[],"listItems":[],"multiselect":false,"name":"player_health","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":1,},
     {"$GMObjectProperty":"","%Name":"player_armor","filters":[],"listItems":[],"multiselect":false,"name":"player_armor","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"","%Name":"arrow_reset","filters":[],"listItems":[],"multiselect":false,"name":"arrow_reset","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
     "name":"player_sprite",
     "path":"sprites/player_sprite/player_sprite.yy",

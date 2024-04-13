@@ -15,40 +15,48 @@ if keyboard_check(ord("S")){
 	y += player_speed;
 }
 
-if keyboard_check(vk_right){
-	var shootItem = instance_create_layer(x, y-16, "Instances", arrow_object);
-	with(shootItem){
-		speed = 5;
-		direction = 0;
+if(arrow_reset <= 0){
+	if keyboard_check(vk_right){
+		var shootItem = instance_create_layer(x, y-16, "Instances", arrow_object);
+		arrow_reset = 45;
+		with(shootItem){
+			speed = 15;
+			direction = 0;
+		}
 	}
+
+	if keyboard_check(vk_up){
+		var shootItem = instance_create_layer(x-16, y, "Instances", arrow_object);
+		arrow_reset = 45;
+		with(shootItem){
+			speed = 15;
+			direction = 90;
+			image_angle = 90;
+		}
+	}
+
+	if keyboard_check(vk_left){
+		var shootItem = instance_create_layer(x, y+16, "Instances", arrow_object);
+		arrow_reset = 45;
+		with(shootItem){
+			speed = 15;
+			direction = 180;
+			image_angle = 180;
+		}
+	}
+
+	if keyboard_check(vk_down){
+		var shootItem = instance_create_layer(x+16, y, "Instances", arrow_object);
+		arrow_reset = 45;
+		with(shootItem){
+			speed = 15;
+			direction = 270;
+			image_angle = 270;
+		}
+	}	
 }
 
-if keyboard_check(vk_up){
-	var shootItem = instance_create_layer(x-16, y, "Instances", arrow_object);
-	with(shootItem){
-		speed = 5;
-		direction = 90;
-		image_angle = 90;
-	}
-}
-
-if keyboard_check(vk_left){
-	var shootItem = instance_create_layer(x, y+16, "Instances", arrow_object);
-	with(shootItem){
-		speed = 5;
-		direction = 180;
-		image_angle = 180;
-	}
-}
-
-if keyboard_check(vk_down){
-	var shootItem = instance_create_layer(x+16, y, "Instances", arrow_object);
-	with(shootItem){
-		speed = 5;
-		direction = 270;
-		image_angle = 270;
-	}
-}
+arrow_reset -= 1;
 
 // Keep player on the screen.
 x=clamp(x, 0, room_width-16);
@@ -76,7 +84,7 @@ if place_meeting(x, y, armor_item){
 }
 
 if place_meeting(x, y, enemy_object){
-	player_health -= 10;
+	player_health -= 5;
 	audio_play_sound(snd_player_hurt, 10, false);
 }
 // Keeps items in check.
