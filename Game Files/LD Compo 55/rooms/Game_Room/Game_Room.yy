@@ -1,17 +1,17 @@
 {
   "$GMRoom":"",
-  "%Name":"Room1",
+  "%Name":"Game_Room",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_5984FD76","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_32181C93","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_5B0DF615","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_7B0578D3","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_1CE146BA","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_3069CFCC","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_5984FD76","path":"rooms/Game_Room/Game_Room.yy",},
+    {"name":"inst_32181C93","path":"rooms/Game_Room/Game_Room.yy",},
+    {"name":"inst_5B0DF615","path":"rooms/Game_Room/Game_Room.yy",},
+    {"name":"inst_7B0578D3","path":"rooms/Game_Room/Game_Room.yy",},
+    {"name":"inst_1CE146BA","path":"rooms/Game_Room/Game_Room.yy",},
+    {"name":"inst_3069CFCC","path":"rooms/Game_Room/Game_Room.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -27,7 +27,7 @@
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"Room1",
+  "name":"Game_Room",
   "parent":{
     "name":"Rooms",
     "path":"folders/Rooms.yy",
