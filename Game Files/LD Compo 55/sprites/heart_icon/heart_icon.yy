@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"heart_icon",
   "bboxMode":0,
-  "bbox_bottom":15,
+  "bbox_bottom":31,
   "bbox_left":0,
-  "bbox_right":15,
+  "bbox_right":31,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":16,
+  "height":32,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"5a52ec14-8f83-4b97-956c-66f9d7e21145","blendMode":0,"displayName":"default","isLocked":false,"name":"5a52ec14-8f83-4b97-956c-66f9d7e21145","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -105,5 +105,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":16,
+  "width":32,
 }

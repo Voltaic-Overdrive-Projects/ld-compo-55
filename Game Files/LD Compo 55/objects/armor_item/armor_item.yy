@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Hud_Summon",
-  "eventList":[],
+  "%Name":"armor_item",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Hud_Summon",
+  "name":"armor_item",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Summon_icon",
-    "path":"sprites/Summon_icon/Summon_icon.yy",
+    "name":"armor_icon",
+    "path":"sprites/armor_icon/armor_icon.yy",
   },
   "spriteMaskId":null,
   "visible":true,
