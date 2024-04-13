@@ -36,6 +36,10 @@ if place_meeting(x, y, armor_item){
 	player_armor += round(random_range(3, 20));
 }
 
+if place_meeting(x, y, enemy_object){
+	player_health -= 10;
+}
+
 // Keeps items in check.
 if player_health > 100{
 	player_health = 100;	

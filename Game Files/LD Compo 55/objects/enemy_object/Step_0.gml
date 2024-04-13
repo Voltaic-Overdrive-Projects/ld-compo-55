@@ -1,0 +1,1 @@
+mp_linear_step(player_object.x, player_object.y, 0.75, 1);
