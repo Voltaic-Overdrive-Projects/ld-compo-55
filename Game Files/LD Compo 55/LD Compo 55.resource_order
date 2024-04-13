@@ -16,5 +16,14 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"Hud_Armor","order":2,"path":"objects/Hud_Armor/Hud_Armor.yy",},
+    {"name":"Hud_Coin","order":3,"path":"objects/Hud_Coin/Hud_Coin.yy",},
+    {"name":"Hud_Heart","order":1,"path":"objects/Hud_Heart/Hud_Heart.yy",},
+    {"name":"Hud_Summon","order":4,"path":"objects/Hud_Summon/Hud_Summon.yy",},
+    {"name":"armor_icon","order":1,"path":"sprites/armor_icon/armor_icon.yy",},
+    {"name":"coin_icon","order":3,"path":"sprites/coin_icon/coin_icon.yy",},
+    {"name":"heart_icon","order":2,"path":"sprites/heart_icon/heart_icon.yy",},
+    {"name":"Summon_Icon","order":4,"path":"sprites/Summon_Icon/Summon_Icon.yy",},
+  ],
 }
