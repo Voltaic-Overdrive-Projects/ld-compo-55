@@ -15,6 +15,41 @@ if keyboard_check(ord("S")){
 	y += player_speed;
 }
 
+if keyboard_check(vk_right){
+	var shootItem = instance_create_layer(x, y-16, "Instances", arrow_object);
+	with(shootItem){
+		speed = 5;
+		direction = 0;
+	}
+}
+
+if keyboard_check(vk_up){
+	var shootItem = instance_create_layer(x-16, y, "Instances", arrow_object);
+	with(shootItem){
+		speed = 5;
+		direction = 90;
+		image_angle = 90;
+	}
+}
+
+if keyboard_check(vk_left){
+	var shootItem = instance_create_layer(x, y+16, "Instances", arrow_object);
+	with(shootItem){
+		speed = 5;
+		direction = 180;
+		image_angle = 180;
+	}
+}
+
+if keyboard_check(vk_down){
+	var shootItem = instance_create_layer(x+16, y, "Instances", arrow_object);
+	with(shootItem){
+		speed = 5;
+		direction = 270;
+		image_angle = 270;
+	}
+}
+
 // Keep player on the screen.
 x=clamp(x, 0, room_width-16);
 y=clamp(y, 0, room_height-16);
