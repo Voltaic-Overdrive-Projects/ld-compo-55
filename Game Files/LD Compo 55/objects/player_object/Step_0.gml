@@ -117,6 +117,6 @@ if player_armor > 100{
 	player_armor = 100;	
 }
 
-if playaer_armor < 0{
+if player_armor <= 0{
 	player_armor = 0;	
 }
