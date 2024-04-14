@@ -120,3 +120,7 @@ if player_armor > 100{
 if player_armor <= 0{
 	player_armor = 0;	
 }
+
+if player_health <= 0{
+	room_restart();
+}

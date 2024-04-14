@@ -39,6 +39,7 @@
     {"id":{"name":"armor_item","path":"objects/armor_item/armor_item.yy",},},
     {"id":{"name":"arrow_object","path":"objects/arrow_object/arrow_object.yy",},},
     {"id":{"name":"coin_item","path":"objects/coin_item/coin_item.yy",},},
+    {"id":{"name":"end_menu_controller","path":"objects/end_menu_controller/end_menu_controller.yy",},},
     {"id":{"name":"enemy_object","path":"objects/enemy_object/enemy_object.yy",},},
     {"id":{"name":"game_controller","path":"objects/game_controller/game_controller.yy",},},
     {"id":{"name":"heart_item","path":"objects/heart_item/heart_item.yy",},},
@@ -47,6 +48,7 @@
     {"id":{"name":"summon_item","path":"objects/summon_item/summon_item.yy",},},
     {"id":{"name":"Game_Room","path":"rooms/Game_Room/Game_Room.yy",},},
     {"id":{"name":"Main_Room","path":"rooms/Main_Room/Main_Room.yy",},},
+    {"id":{"name":"End_Room","path":"rooms/End_Room/End_Room.yy",},},
     {"id":{"name":"snd_armor_get","path":"sounds/snd_armor_get/snd_armor_get.yy",},},
     {"id":{"name":"snd_arrow_shot","path":"sounds/snd_arrow_shot/snd_arrow_shot.yy",},},
     {"id":{"name":"snd_coin_get","path":"sounds/snd_coin_get/snd_coin_get.yy",},},
@@ -57,6 +59,7 @@
     {"id":{"name":"armor_icon","path":"sprites/armor_icon/armor_icon.yy",},},
     {"id":{"name":"arrow_sprite","path":"sprites/arrow_sprite/arrow_sprite.yy",},},
     {"id":{"name":"coin_icon","path":"sprites/coin_icon/coin_icon.yy",},},
+    {"id":{"name":"dirt_sprite","path":"sprites/dirt_sprite/dirt_sprite.yy",},},
     {"id":{"name":"enemy_sprite","path":"sprites/enemy_sprite/enemy_sprite.yy",},},
     {"id":{"name":"heart_icon","path":"sprites/heart_icon/heart_icon.yy",},},
     {"id":{"name":"player_sprite","path":"sprites/player_sprite/player_sprite.yy",},},
@@ -67,6 +70,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Main_Room","path":"rooms/Main_Room/Main_Room.yy",},},
     {"roomId":{"name":"Game_Room","path":"rooms/Game_Room/Game_Room.yy",},},
+    {"roomId":{"name":"End_Room","path":"rooms/End_Room/End_Room.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
