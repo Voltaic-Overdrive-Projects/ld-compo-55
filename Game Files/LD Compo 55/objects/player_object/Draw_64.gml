@@ -2,6 +2,8 @@
 draw_set_alpha(1);
 draw_set_colour(c_white);
 draw_set_font(Default_Font);
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
 draw_sprite_ext(heart_icon, -1, 160, 480, 1, 1, 0, c_white, 0.75);
 draw_sprite_ext(armor_icon, -1, 320, 480, 1, 1, 0, c_white, 0.75);
 draw_sprite_ext(summon_icon, -1, 480, 480, 1, 1, 0, c_white, 0.75);
