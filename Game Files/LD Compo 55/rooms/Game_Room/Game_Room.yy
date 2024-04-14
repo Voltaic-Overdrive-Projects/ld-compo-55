@@ -6,21 +6,13 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_5984FD76","path":"rooms/Game_Room/Game_Room.yy",},
-    {"name":"inst_32181C93","path":"rooms/Game_Room/Game_Room.yy",},
-    {"name":"inst_5B0DF615","path":"rooms/Game_Room/Game_Room.yy",},
-    {"name":"inst_7B0578D3","path":"rooms/Game_Room/Game_Room.yy",},
-    {"name":"inst_1CE146BA","path":"rooms/Game_Room/Game_Room.yy",},
     {"name":"inst_3069CFCC","path":"rooms/Game_Room/Game_Room.yy",},
     {"name":"inst_63269812","path":"rooms/Game_Room/Game_Room.yy",},
+    {"name":"inst_5984FD76","path":"rooms/Game_Room/Game_Room.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Hud_Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"","%Name":"inst_32181C93","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_32181C93","objectId":{"name":"summon_item","path":"objects/summon_item/summon_item.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":448.0,"y":224.0,},
-        {"$GMRInstance":"","%Name":"inst_5B0DF615","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5B0DF615","objectId":{"name":"heart_item","path":"objects/heart_item/heart_item.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":320.0,},
-        {"$GMRInstance":"","%Name":"inst_7B0578D3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7B0578D3","objectId":{"name":"coin_item","path":"objects/coin_item/coin_item.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":320.0,},
-        {"$GMRInstance":"","%Name":"inst_1CE146BA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1CE146BA","objectId":{"name":"armor_item","path":"objects/armor_item/armor_item.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":256.0,},
         {"$GMRInstance":"","%Name":"inst_3069CFCC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3069CFCC","objectId":{"name":"enemy_object","path":"objects/enemy_object/enemy_object.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":128.0,},
         {"$GMRInstance":"","%Name":"inst_63269812","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_63269812","objectId":{"name":"game_controller","path":"objects/game_controller/game_controller.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"name":"Hud_Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},

@@ -122,5 +122,6 @@ if player_armor <= 0{
 }
 
 if player_health <= 0{
+	audio_stop_all();
 	room_restart();
 }
